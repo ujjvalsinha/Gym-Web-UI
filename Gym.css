@@ -1,0 +1,108 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo Bhai';
+    background-image: url('Gympic.jpeg');
+}
+
+.left {
+    position: absolute;
+    left: 34px;
+    top: 20px;
+
+    /* display: inline block; */
+}
+
+.left img {
+    width: 150px;
+
+}
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    /* border: 2px solid red; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+
+    /* display: inline block; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 24px;
+    font-size: 22px;
+}
+
+/* when my nav bar is touched or active */
+.navbar li a:hover,
+.navbar li a:active {
+    color: gray;
+
+}
+
+.btn {
+    margin: 9px 10px;
+    color: white;
+    padding: 5px;
+    background-color: black;
+    font-size: 16px;
+    font-family: 'Baloo Bhai';
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: gray;
+}
+
+.container {
+    border: 2px solid white;
+    /* margin: 100px 76px; */
+    /* padding: 41px; */
+    position: absolute;
+    right: 60px;
+    top: 200px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.groupform input {
+    text-align: center;
+    display: block;
+    width: 70%;
+    font-family: 'Baloo Bhai';
+    font-size: 16px;
+    padding: 6px;
+    margin: 5px auto;
+    border: 2px solid yellow;
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: center;
+
+}
+
+.container button {
+    display: block;
+    width: 72%;
+    margin: 16px auto;
+
+}
